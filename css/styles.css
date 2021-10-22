@@ -178,11 +178,17 @@ header {
 }
 
 /*-------------------hero---------------*/
+.overlay {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/background-hero.jpg)
+}
+
 .hero {
   background-color: var(--primary-background-color);
   padding-top: 200px;
   padding-bottom: 200px;
-
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-text {
