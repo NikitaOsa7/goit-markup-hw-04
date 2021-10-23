@@ -390,8 +390,8 @@ header {
   fill: #afb1b8 ;
 }
 
-.social-icon:hover .social-icon, 
-.social-icon:focus .social-icon {
+.social-link:hover .social-icon, 
+.social-link:focus .social-icon {
   fill: #FFFFFF;
 }
 
@@ -432,7 +432,7 @@ header {
 }
 
 .client-icon {
-  fill: var(--accent-color);
+  fill: #afb1b8;
 }
 
 .clients-title {
@@ -450,17 +450,20 @@ header {
   align-items: center;
   width: 170px;
   height: 92px;
-  color: #afb1b8;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
   cursor: pointer;
 }
 
+.link-client:hover .client-icon,
+.link-client:focus .client-icon {
+  fill:var(--accent-color);
+}
+
 .link-client:hover,
 .link-client:focus {
-  border-color:var(--accent-color);
-  color:var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /*-------------------footer---------------*/
