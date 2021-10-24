@@ -602,7 +602,7 @@ header {
   background-color: var(--accent-color);
 }
 
-.social-icon {
+.social-icon-footer {
   fill: #ffffff;
 }
 
@@ -690,7 +690,6 @@ header {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   width: 370px;
-  height: 404px;
   left: 215px;
 
   background: #ffffff;
