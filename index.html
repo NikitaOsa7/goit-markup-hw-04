@@ -29,17 +29,19 @@
                 </ul>
             </nav>
             <ul class="list header-connect">
-                    <svg class="special-icon-mail">
-                        <use href="./img/sprite-connect.svg#icon-mail"></use>
-                    </svg>
                 <li class="connect-item">
-                    <a href="mailto:info@devstudio.com"class="connect-link link">info@devstudio.com</a>
+                    <a href="mailto:info@devstudio.com"class="connect-link link">
+                        <svg class="special-icon-mail">
+                            <use href="./img/sprite-connect.svg#icon-mail"></use>
+                        </svg>info@devstudio.com
+                    </a>
                 </li>
-                    <svg class="special-icon-tel">
-                        <use href="./img/sprite-connect.svg#icon-tel"></use>
-                    </svg>
                 <li class="connect-item">
-                    <a href="tel:+380961111111" class="connect-link link">+38 096-111-11-11</a>
+                    <a href="tel:+380961111111" class="connect-link link">
+                        <svg class="special-icon-tel">
+                            <use href="./img/sprite-connect.svg#icon-tel"></use>
+                        </svg>+38 096-111-11-11
+                    </a>
                 </li>
             </ul>
         </div>
@@ -56,43 +58,43 @@
         <section class="section">
             <div class="container"> 
                 <h2 class="visually-hidden">НАШИ ПРИЕМУЩЕСТВА</h2>
-                <ul class="list features-list">
+                <ul class="features-list">
                     <li class="features-item">
-                        <a href="#" class="features-thumb container">
+                        <div class="features-thumb">
                             <svg class="features-icon">
                                 <use href="./img/sprite.svg#icon-antenna"></use>
                             </svg>
-                        </a>
+                        </div>
                         <h3 class="features-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                         <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию
                             позиции.</p>
                     </li>
                     <li class="features-item">
-                        <a href="#" class="features-thumb container">
+                        <div class="features-thumb">
                             <svg class="features-icon">
                                 <use href="./img/sprite.svg#icon-clock"></use>
                             </svg>
-                        </a>
+                        </div>
                         <h3 class="features-title">ПУНКТУАЛЬНОСТЬ</h3>
                         <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров
                             влечет за собой.</p>
                     </li>
                     <li class="features-item">
-                        <a href="#" class="features-thumb container">
+                        <div class="features-thumb">
                             <svg class="features-icon">
                                 <use href="./img/sprite.svg#icon-diagram"></use>
                             </svg>
-                        </a>
+                        </div>
                         <h3 class="features-title">СОВЕРМЕННЫЕ ТЕХНОЛОГИИ</h3>
                         <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых
                             заданий.</p>
                     </li>
                     <li class="features-item">
-                        <a href="#" class="features-thumb container">
+                        <div class="features-thumb">
                             <svg class="features-icon">
                                 <use href="./img/sprite.svg#icon-astronaut"></use>
                             </svg>
-                        </a>
+                        </div>
                         <h3 class="features-title">ПЛАНИРОВАНИЕ</h3>
                         <p class="features-text">Равным образом консультация с широким активом в значительной степени
                             обуславливает.</p>
@@ -104,7 +106,7 @@
         <section class="section our-work">
             <div class="container">
                 <h2 class="our-work-title">Чем мы занимаемся</h2>
-                <ul class="list our-work-list">
+                <ul class="our-work-list">
                     <li class="our-work-item">
                         <img src="./img/doing-something-1.jpg" alt="Человек печатает на клавиатуре" width="370"
                             height="294" class="image-presentation-1" />
@@ -124,14 +126,14 @@
         <section class="section team">
             <div class="container">
                 <h2 class="team-title">Наша команда</h2>
-                <ul class="list team-list">
+                <ul class="team-list">
                     <li class="team-card team-card-item">
                         <img src="./img/igor-1.jpg" alt="Светловолосый мужчина в очках" width="270" height="260"
                             class="team-card-picture">
                         <div class="picture-names">
                             <h3 class="team-card-title">Игорь Демьяненко</h3>
                             <p class="team-card-position">Product Designer</p>
-                            <ul class="team-social social-list list">
+                            <ul class="social-list">
                                 <li class="social-item">
                                     <a href="" class="social-link">
                                         <svg class="social-icon" width="20" height="20">
@@ -332,7 +334,8 @@
     </main>
     <!----footer---->
     <footer class="footer">
-        <div class="footer-container">
+    <div class="container footer-container">
+        <div class="footer-container-special">
             <a href="#" class="link footer-logo"><span class="logo-part">Web</span>Studio</a>
             <address>
                 <ul class="list">
@@ -379,6 +382,7 @@
                 </li>
             </ul>
         </div>
+    </div>
     </footer>
 </body>
 </html>
